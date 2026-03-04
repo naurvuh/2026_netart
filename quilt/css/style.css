@@ -1,0 +1,32 @@
+* { 
+    margin: 0;  
+  }  
+  .container {
+    height:100vh;
+    width:100%;
+    background-color:olive;
+  }
+  .boxes {
+    float: left;
+    width:5%;
+    height:5vh;
+  }
+  
+  .box1 {
+    background: black;
+   
+  }
+  .box2 {
+    background: Plum;
+   
+  }
+  .box3 {
+    background: FloralWhite;
+    
+  }
+  .box4 {
+    background: Linen;
+  }
+.box5 {
+  background: pink;
+}
