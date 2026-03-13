@@ -1,0 +1,51 @@
+body {
+    margin:0;
+    height: 100vh;
+    overflow: auto;
+    background-color: white;
+p{
+        color:pink;
+        position: relative;
+        z-index: 10;
+        font-family: arial;
+        font-size:25px;
+        text-align: center;
+    }
+.border{
+    border: 5px solid pink;
+    width: 585px;
+    height: 585px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+
+}
+  }
+  .gum-btn{
+    width: 200px;
+    position:absolute;
+    top:50%;
+    left:40%;
+    aspect-ratio: 1;
+    --g:/20.56% 20.56% radial-gradient(#000 calc(71% - 1px),#0000 71%) no-repeat;
+    mask: 100% 50% var(--g),93.301% 75% var(--g),75% 93.301% var(--g),50% 100% var(--g),25% 93.301% var(--g),6.699% 75% var(--g),0% 50% var(--g),6.699% 25% var(--g),25% 6.699% var(--g),50% 0% var(--g),75% 6.699% var(--g),93.301% 25% var(--g),radial-gradient(100% 100%,#000 38.366%,#0000 calc(38.366% + 1px));
+    background-color: darksalmon;
+    transition: background-color 5s ease;
+    animation-duration: 5s;
+  }
+  .gum-btn:hover {
+    background-color:pink;
+    animation: chewgum 10s infinite alternate;
+  }
+  @keyframes chewgum {
+    0% {transform: translate(0, 0);}
+    25% {transform: translate(100px, -250px);}
+    45% {transform: translate(0, 0);}
+    65% {transform: translate(-200px,-250px);}
+    85% {transform: translate(-300px,0);}
+    95% {transform: translate(-150px,-150);}
+    100% {transform: translate(0,0px);}
+  }
+  
