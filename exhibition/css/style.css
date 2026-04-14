@@ -1,0 +1,36 @@
+h1,h2,h4,p {
+    text-align:center;
+    font-family:arial;
+  }
+body {
+    background-color: lightblue;
+}
+  img {
+    width:60%;
+    display:block;
+    margin:0 auto;
+  }
+  
+  .titlestuff {
+    width:40%;
+    display:block;
+    margin:0 auto;
+  }
+  
+  @media screen and (max-width: 992px) {
+      img {
+        width:80%;
+      }
+      .titlestuff {
+        width:70%;
+      }
+  }
+  
+  @media screen and (max-width: 768px) {
+      img {
+        width:100%;
+      }
+      .titlestuff {
+        width:100%;
+      }
+  }
