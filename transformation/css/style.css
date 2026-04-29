@@ -1,0 +1,12 @@
+body {
+    animation: bgFade 45s infinite alternate;
+    font-family: Courier New, monospace;
+  }
+  
+  @keyframes bgFade {
+    from {
+      background-color: olive;
+    }
+    to {
+      background-color: black;
+    }}
