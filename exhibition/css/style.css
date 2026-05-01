@@ -1,18 +1,20 @@
-h1,h2,h4,p {
-    text-align:center;
-    font-family:arial;
+h1,h2,h4{
+  text-align:center; font-family: "Michroma", sans-serif; width:52%; display:block; margin:0 auto;
   }
+p{
+  text-align:center;
+  font-family: "Michroma", sans-serif;
+  width:70%;
+  display:block;
+  margin:0 auto;
+}
 body {
     background-color: lightblue;
+    font-family: "Saira", sans-serif;
+
 }
   img {
     width:60%;
-    display:block;
-    margin:0 auto;
-  }
-  
-  .titlestuff {
-    width:40%;
     display:block;
     margin:0 auto;
   }
@@ -34,3 +36,36 @@ body {
         width:100%;
       }
   }
+
+  .ml11 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 5px;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
